@@ -146,7 +146,7 @@ body, html {
   bottom: 270px;
   left: 50%;
   transform: translateX(-50%);
-  animation: bounce 2s ease-in-out infinite alternate 6s, riseSun 8s ease-in-out forwards;
+  animation: bounce 2s ease-in-out infinite;
 }
 
 @keyframes sunUp {
