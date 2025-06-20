@@ -5,10 +5,25 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python Debugger: Python File",
+            "name": "Node.js Debugger: Launch Program",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/app.js"
+        },
+        {
+            "name": "Python Debugger: Flask App",
             "type": "debugpy",
             "request": "launch",
-            "program": "${file}"
+            "module": "flask",
+            "env": {
+                "FLASK_APP": "${workspaceFolder}/app.py"
+            }
+        },
+        {
+            "name": "C++ Debugger: Launch Program",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/app.exe"
         }
     ]
 }
