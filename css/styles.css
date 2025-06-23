@@ -222,13 +222,18 @@ body, html {
   animation: fadeIn 2 ease 9s forwards, bounce 2s ease-in-out infinite alternate 6s;
 }
 
-.moth> img{
+.firefly> img{
     width: 50px;
   position: absolute;
   left: -50px;
   top: 25%;
-  transform: rotate(-90deg);
-  animation: flyBird 12s linear infinite;
+  transform: rotate(45deg);
+  animation: flyFirefly 8s linear infinite;
+}
+
+@keyframes flyFirefly {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(120vw); }
 }
 
 @keyframes riseMoon {
