@@ -155,29 +155,16 @@ body, html {
   }
 }
 
-/* flowers */
-.flowers{
-  position:relative;
-  width: 100px;
-  height: 100px;
-}
-
-.petal {
-  width: 40px;
-  animation: flowerBloom 8s ease-in-out forwards;
-} 
-
-.petal:nth-child(1) { transform: rotate(0deg) translateX(20px); }
-
-@keyframes flowerBloom {
-  0% {
-    transform: scale(0);
-    opacity: 0;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
+.greeting2 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  color: #fdfdfd;
+  opacity: 0;
+  text-shadow: 2px 2px 6px #8ab6e6;
+  animation: fadeIn 2 ease 9s forwards, bounce 2s ease-in-out infinite alternate 6s;
 }
 
 /*  night */
@@ -240,7 +227,7 @@ body, html {
   position: absolute;
   left: -50px;
   top: 25%;
-  transform: rotate(-45deg);
+  transform: rotate(-90deg);
   animation: flyBird 12s linear infinite;
 }
 
@@ -263,6 +250,9 @@ body, html {
   .moon {
     width: 80px;
     height: 80px;
+  }
+  .greeting2 {
+    font-size: 1.5rem;
   }
 }
 @keyframes twinkle {
