@@ -227,8 +227,8 @@ body, html {
   position: absolute;
   left: -50px;
   top: 25%;
-  transform: rotate(45deg);
-  animation: flyFirefly 8s linear infinite;
+  transform: rotate(-90deg);
+  animation: flyFirefly 4s linear infinite;
 }
 
 @keyframes flyFirefly {
