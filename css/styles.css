@@ -232,8 +232,8 @@ body, html {
 }
 
 @keyframes flyFirefly {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(120vw); }
+  100% { transform: translateX(0); }
+  0% { transform: translateX(120vw); }
 }
 
 @keyframes riseMoon {
