@@ -223,7 +223,7 @@ body, html {
 }
 
 .firefly> img{
-    width: 50px;
+    width: 100px;
   position: absolute;
   left: -50px;
   top: 25%;
