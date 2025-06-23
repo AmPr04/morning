@@ -271,7 +271,7 @@ body, html {
 }
 
 /*toggle*/
-.sky, .night{
+.sky, .night, .day, .afternoon {
   display: none;
 }
 .visible {
