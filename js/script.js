@@ -7,9 +7,9 @@ const day = document.querySelector('.afternoon');
 // You can customize the time ranges as needed
 if (hour >= 6 && hour < 12) {
   sky.classList.add('visible');
-} else (hour >= 19 && hour < 5) {
+} else if (hour >= 19 || hour < 5) {
   night.classList.add('visible');
-} else (hour >= 12 && hour < 18); {
+} else if (hour >= 12 && hour < 18) {
   day.classList.add('visible');
 }
 
