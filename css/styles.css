@@ -223,7 +223,7 @@ body, html {
 .star:nth-child(5) { top: 10%; left: 90%; }
 /* Add more with different top/left % for variety */
 
-.greeting2 {
+.greeting3 {
   position: absolute;
   top: 55%;
   left: 50%;
@@ -240,7 +240,7 @@ body, html {
   position: absolute;
   left: -50px;
   top: 25%;
-  transform: rotate(-15deg);
+  transform: rotate(-45deg);
   animation: flyBird 12s linear infinite;
 }
 
@@ -257,7 +257,7 @@ body, html {
 }
 
 @media (max-width: 768px) {
-  .greeting2 {
+  .greeting3 {
     font-size: 1.5rem;
   }
   .moon {
